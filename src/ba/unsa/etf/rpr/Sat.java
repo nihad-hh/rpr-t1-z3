@@ -4,6 +4,7 @@ public class Sat {
 
     private int sati,minute,sekunde;
 
+
     private void Postavi(int sati, int minute, int sekunde) { this.sati=sati; this.minute=minute; this.sekunde=sekunde; }
     public Sat(int sati, int minute, int sekunde) { Postavi(sati,minute,sekunde); }
 
